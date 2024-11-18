@@ -21,6 +21,9 @@ importers:
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.49)
+      husky:
+        specifier: ^9.1.6
+        version: 9.1.6
       postcss:
         specifier: ^8.4.49
         version: 8.4.49
@@ -569,6 +572,11 @@ packages:
 
   he@1.2.0:
     resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
+    hasBin: true
+
+  husky@9.1.6:
+    resolution: {integrity: sha512-sqbjZKK7kf44hfdE94EoX8MZNk0n7HeW37O4YrVGCF4wzgQjp+akPAkfUK5LZ6KuR/6sqeAVuXHji+RzQgOn5A==}
+    engines: {node: '>=18'}
     hasBin: true
 
   is-binary-path@2.1.0:
@@ -1368,6 +1376,8 @@ snapshots:
       function-bind: 1.1.2
 
   he@1.2.0: {}
+
+  husky@9.1.6: {}
 
   is-binary-path@2.1.0:
     dependencies:
